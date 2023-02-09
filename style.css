@@ -1,0 +1,241 @@
+
+body{
+height: 100%;
+  margin: 0;
+}
+/* header css part */
+.header{
+    height: 800px;
+    background-image: url(./images/banner/banner1.png);
+    background-repeat: no-repeat;
+
+    background-position: center top;
+    background-size: 100% auto;
+    margin-bottom: 100px;
+}
+
+.header-text{
+    
+    float: right;
+    margin-top: 216px;
+    margin-right: 216px;
+    margin-left: 845px;   
+}
+
+.header-title{
+    font-weight: 700px;
+    font-size: 65px;
+    color: #151414;
+}
+
+.header-drescription{
+    font-weight: 400px;
+    font-size: 16px;
+    color: #444343;
+}
+
+button{
+width: 160px;
+height: 64px;
+background: #F15B22;
+border-radius: 5px;
+border: none;
+color: white;
+font-size: 20px;
+margin-top: 20px;
+}
+
+/* header css part end */
+
+/* Main part css start */
+
+.main-part{
+    
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 1000px;
+}
+
+
+.failures-part{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.failures-text{
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.failures-title{
+    color: #151414;
+    font-weight: 700px;
+    font-size: 40px;
+}
+
+.failures-drescription{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+/* my plan css section start */
+ 
+.my-plan{
+    margin-bottom:100px;
+    
+}
+.my-plan-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800px;
+    color: #151414;
+
+}
+
+.all-plans{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    
+}
+
+.single-plan-title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+
+}
+
+.plan-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.plan-descrpition{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    text-align: center;
+   
+}
+
+/* my plan css section end */
+
+
+/* last slider image part start */
+
+
+.last-slider{
+
+    height: 300px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(./images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    padding: 5px;
+
+}
+
+.last-slier-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+     margin-left: 50px;
+     margin-top: 50px;
+}
+
+.call-now-btn{
+width: 160px;
+height: 64px;
+background: white;
+border-radius: 10px;
+color: #F15B22;
+margin-left: 50px;
+}
+
+/* last slider image part End */
+
+
+footer{
+      
+    height: 500px;
+    background-color: #151414;
+    margin-top: 70%;
+   
+}
+
+
+.contact-footer{
+    color: white;
+    margin-left: 20%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20%;
+    
+}
+
+.social{
+    display: flex;
+    
+}
+
+.social img {
+    margin-right: 20px;
+}
+
+.input-item{
+    background-color: #151414;
+    color: white;
+    border: none;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.about {
+    background-color: #f0a785;
+    padding: 10px;
+    margin-top: 100px;
+    
+}
+
+.section-title{
+    
+    margin-bottom: 30px;
+    font-weight: 700px;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about .info-title{
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+
+}
